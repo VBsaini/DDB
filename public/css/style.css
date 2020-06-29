@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+#head-back-img{
+    background: url('https://unsplash.com/photos/zi1GRsLym3s/download?force=true&w=1920');
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+}
+#dreams{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 60vw;
+    height: 20vh;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 20%;
+}
+#dreams p {
+    font-weight: bold;
+    font-size: 30px;
+}
+#dreams h1 {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+    font-size: 35px;
+}
+.bg-dark{
+    opacity: 0;
+    transition: all .4s;
+}
+.show{
+    opacity: 1;
+}
