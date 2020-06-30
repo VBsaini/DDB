@@ -2,14 +2,14 @@
     box-sizing: border-box;
 }
 #head-back-img{
-    background: url('https://unsplash.com/photos/zi1GRsLym3s/download?force=true&w=1920');
+    background: url('https://unsplash.com/photos/TjXKXS6k6j0/download?force=true&w=1920');
     background-position: center;
     background-size: cover;
     width: auto;
     height: 100vh;
 }
 #dreams{
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     width: 60vw;
     height: 20vh;
     margin: auto;
@@ -23,17 +23,77 @@
 #dreams p {
     font-weight: bold;
     font-size: 30px;
+    color: white;
 }
 #dreams h1 {
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 4px;
     font-size: 35px;
+    color: white;
 }
-.bg-dark{
+.navbar{
     opacity: 0;
     transition: all .4s;
 }
 .show{
     opacity: 1;
+}
+.face-img{
+    border-radius: 10%;
+    width: 12vw;
+    height: 20vh;
+}
+.text-align-center{
+    text-align: center;
+}
+.text-align-left{
+    text-align: left;
+}
+.photo-img{
+    height: 40vh;
+    color: white;
+    box-shadow: 4px 4px 3px black;
+    transition: all .2s;
+    border-radius: 5%;
+}
+.fabric-img{
+    background: url('https://unsplash.com/photos/aL7mLl5DZk4/download?force=true&w=640') ;
+    background-position: center;
+    background-size: cover;
+}
+.new-img{
+    background: url('https://unsplash.com/photos/aL7mLl5DZk4/download?force=true&w=640') ;
+    background-position: center;
+    background-size: cover;
+
+}
+.special-img{
+    background: url('https://unsplash.com/photos/aL7mLl5DZk4/download?force=true&w=640') ;
+    background-position: center;
+    background-size: cover;
+
+}
+.tradition-img{
+    background: url('https://unsplash.com/photos/aL7mLl5DZk4/download?force=true&w=640') ;
+    background-position: center;
+    background-size: cover;
+}
+.design-img{
+    background: url('https://unsplash.com/photos/aL7mLl5DZk4/download?force=true&w=640') ;
+    background-position: center;
+    background-size: cover;
+}
+.img-content{
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+}
+.photo-img:hover{
+    box-shadow: 6px 6px 4px black;
 }
