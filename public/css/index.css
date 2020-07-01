@@ -34,14 +34,15 @@
 }
 .navbar{
     opacity: 0;
+    visibility: hidden;
     transition: all .4s;
 }
 .show{
     opacity: 1;
+    visibility: visible;
 }
 .face-img{
     border-radius: 10%;
-    width: 12vw;
     height: 20vh;
 }
 .text-align-center{
@@ -96,4 +97,12 @@
 }
 .photo-img:hover{
     box-shadow: 6px 6px 4px black;
+}
+@media show {
+    from{
+        display: none;
+    }
+    to{
+        display: flex;
+    }
 }

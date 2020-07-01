@@ -10,6 +10,9 @@ app.get('/', (req, res) => {
     res.render('./front-end/index')
 })
 
+app.get('/features', (req, res) =>{
+    res.render('./front-end/features')
+});
 
 app.listen(3000, error => {
     if(error){
