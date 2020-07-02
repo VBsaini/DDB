@@ -4,3 +4,13 @@
     background: rgba(0, 0, 0, 0.8);
     color: white;
 }
+
+.card-mine img{
+    width: 100%;
+}
+.ta-c{
+    text-align: center;
+}
+.card-mine{
+    color: black;
+}
