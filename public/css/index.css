@@ -98,6 +98,9 @@
 .photo-img:hover{
     box-shadow: 6px 6px 4px black;
 }
+a:hover{
+    text-decoration: none;
+}
 @media show {
     from{
         display: none;
