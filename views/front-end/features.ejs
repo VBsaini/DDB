@@ -10,7 +10,7 @@
     </head>
     <body>
         <!-- ===================================================== Navbar ======================================================== -->
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-success" id="navbar">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-success pr-0" id="navbar">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,56 +29,79 @@
                 </ul>
                 <ul class="navbar-nav  d-flex w-100 justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Login</a>
+                        <a class="nav-link" href="/login">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Signup</a>
+                        <a class="nav-link" href="/signup">Signup</a>
                     </li>
                 </ul>
             </div>
         </nav>
-<section class="section-main mt-5">
-    <div class="d-flex jc-c flex-column align-items-center div-main pt-4">
-        <h3>In our boutique the customer is no less than the god</h3>
-        <div class="p-5">
-            <div class="row">
-                <div class="col-sm-3 p-2 bg-light">
-                    <div class="card-1 card-mine">
-                        <img src="../img/premium.png">
-                        <h2 class="ta-c">
-                            Quality
-                        </h2>
-                        <p>
-                            Our boutique guarantee you the best quality <a href="#quality">read more</a>
-                        </p>
+    <section id="features-header" >
+        <div class=" div-main pt-4">
+            <h3 class="d-flex jc-c flex-column align-items-center">In our boutique the customer is no less than the god</h3>
+            <div class="p-5">
+                <div class="row ml-2">
+                    <div class="col-sm-3 p-2 bg-light ml-5">
+                        <div class="card-1 card-mine">
+                            <img src="../img/premium.png">
+                            <h2 class="ta-c">
+                                Quality
+                            </h2>
+                            <p>
+                                Our boutique guarantee you the best quality <a href="#quality">read more</a>
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-3 p-2 bg-light">
-                <div class="card-2 card-mine ">
-                    <img src="../img/free-label.png">
-                        <h2 class="ta-c">
-                            Free one week altering
-                        </h2>
-                        <p>
-                            we provide free ulimited altering for on week <a href="#altering">read more</a><a></a>
-                        </p>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-3 p-2 bg-light">
+                    <div class="card-2 card-mine ">
+                        <img src="../img/free-label.png">
+                            <h2 class="ta-c">
+                                Free one week altering
+                            </h2>
+                            <p>
+                                we provide free ulimited altering for on week <a href="#altering">read more</a><a></a>
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-3 p-2 bg-light">
-                    <div class="card-3 card-mine">
-                        <img src="../img/design.png">
-                        <h2 class="ta-c">
-                            Your design
-                        </h2>
-                        <p>
-                            we stich exactly the way you wanted to<a href="#altering">read more</a><a></a>
-                        </p>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-3 p-2 bg-light">
+                        <div class="card-3 card-mine">
+                            <img src="../img/design.png">
+                            <h2 class="ta-c">
+                                Your design
+                            </h2>
+                            <p>
+                                we stich exactly the way you wanted to<a href="#altering">read more</a><a></a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+    <section>
+        <div class="ta-c mt-5">
+            <h2>
+                Our services
+            </h2>
+        </div>
+        <div id="mine">
+            <div class="row w-90 mr-0">
+                <div class="col-sm-4">
+                    <img src="../img/premium.png" class="w-100">
+                </div>
+                <div class="col-sm-4">
+                    <h2 class="ta-c">
+                        Quality
+                    </h2>
+                    <p>
+                        We are assuring you the best quality in town  
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/js/features-observer.js"></script>
 <%- include('./partials/footer') %>

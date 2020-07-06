@@ -1,8 +1,9 @@
 const options = {
     threshold:0
 }
-const headimg = document.getElementById('head-back-img');
-const navbar = document.getElementById('navbar')
+
+const navbar = document.getElementById('navbar');
+const featurespage = document.getElementById('features-header'); 
 const navObserver = new IntersectionObserver((entires, navObserver) => {
     entires.forEach(entry => {
         if(entry.isIntersecting){
@@ -13,5 +14,4 @@ const navObserver = new IntersectionObserver((entires, navObserver) => {
     })
 }, options)
 
-
-navObserver.observe(headimg)
+navObserver.observe(featurespage);
